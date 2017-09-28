@@ -1,3 +1,5 @@
+Docker地址:https://hub.docker.com/r/eloco/raspi3_leanote_mongo/
+
 docker run -p 9000:9000 --restart always --name leanote_mongo -ti notes  
 
 docker exec -i -t  raspi3_leanote_mongo    /bin/bash
